@@ -142,15 +142,27 @@ default : echo "your number is wrong";
     break;
     }
 };
+convert ("two");echo"<br>";echo"<br>";echo"<br>";
 
-convert ("two");
+echo "<h1>basic2/step5</h1>";
 
-    
+function sumDigit($number){
+    $sum = 0;
+    while ($number != 0){
+        $sum = $number%10 + $sum;
+        $number = $number/10;
+    }
+    return $sum;
+
+
+}echo sumDigit(54321);echo"<br>";echo"<br>";echo"<br>";
+
+
+echo "<h1>basic2/step6</h1>";
+
 
 
 echo"<br>";echo"<br>";echo"<br>";
-echo "<h1>basic2/step5</h1>";echo"<br>";echo"<br>";echo"<br>";
-echo "<h1>basic2/step6</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step7</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step8</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step9</h1>";echo"<br>";echo"<br>";echo"<br>";
