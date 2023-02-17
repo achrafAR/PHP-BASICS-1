@@ -128,7 +128,27 @@ echo $var1;echo"<br>";
 echo $var2;echo"<br>";echo"<br>";echo"<br>";
 
 
-echo "<h1>basic2/step4</h1>";echo"<br>";echo"<br>";echo"<br>";
+echo "<h1>basic2/step4</h1>";
+function convert($number){
+    switch ($number){
+case "one" : echo "1";
+break;
+case "two" : echo "2";
+break;
+case "three": echo "3";
+break;
+default : echo "your number is wrong";
+    
+    break;
+    }
+};
+
+convert ("two");
+
+    
+
+
+echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step5</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step6</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step7</h1>";echo"<br>";echo"<br>";echo"<br>";
