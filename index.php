@@ -119,10 +119,15 @@ function greaterFn($num){
 greaterFn(8);echo"<br>";echo"<br>";echo"<br>";
 
 echo "<h1>basic2/step3</h1>";
+$var1 = 32;
+$var2 = 45;
+$var3 = $var1;
+$var1 = $var2;
+$var2 = $var3;
+echo $var1;echo"<br>";
+echo $var2;echo"<br>";echo"<br>";echo"<br>";
 
 
-
-echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step4</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step5</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step6</h1>";echo"<br>";echo"<br>";echo"<br>";
