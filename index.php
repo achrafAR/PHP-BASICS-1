@@ -8,8 +8,14 @@
 </head>
 <body>
 <?php
-    echo "I am getting errors but i can't see the errors";
-   
+    $name = "Achraf";
+    $email = "achraf.alrachini@gmail.com";
+    echo "My name is $name and my email is $email";
+    $height = 180;
+    $width = 50;
+    $area = $width*$height;
+    echo "<br>";
+    echo $area;
 
 ?>
 </body>
