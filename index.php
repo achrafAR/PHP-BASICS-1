@@ -89,6 +89,13 @@
 echo "Hey Sir, Please I need 1 pack of {$grocery_list['eggs'][0]} eggs and 3 {$grocery_list['water-pack'][1]} Water Pack.";
 
 
+echo "<h1>Step 9</h1>";
+
+$name = "ACHRAF";
+var_dump($name);
+echo "<br>";
+var_dump("rachini");
+
 
 
 
