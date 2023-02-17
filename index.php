@@ -102,11 +102,27 @@ echo "<h1>basic2/step1</h1>";
 echo "Tomorrow I 'll learn PHP global variables.
 This is a bad command: sudo rm -rf /";echo"<br>";echo"<br>";echo"<br>";
 
+
+
 echo "<h1>basic2/step2</h1>";
+function greaterFn($num){
+    if($num>30){
+        echo "$num is greater than 30";
+    }else if ($num>20){
+        echo "$num is greater than 20";
+    }else if ($num>10){
+        echo "$num is greater than 10";
+    }else{
+        echo "$num is less than 10";
+    }
+}
+greaterFn(8);echo"<br>";echo"<br>";echo"<br>";
+
+echo "<h1>basic2/step3</h1>";
+
 
 
 echo"<br>";echo"<br>";echo"<br>";
-echo "<h1>basic2/step3</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step4</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step5</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step6</h1>";echo"<br>";echo"<br>";echo"<br>";
