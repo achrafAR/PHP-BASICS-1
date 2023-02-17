@@ -55,7 +55,24 @@
 
     }
 
-    echo "Area is ".calculateArea(5,3);
+    echo "Area is ".calculateArea(5,3); echo "<br>";   echo "<br>";   echo "<br>";  
+
+
+
+    echo "<h1>Step 7</h1>";
+
+    $birth_year = 1989;
+    $current_year = 2023;
+
+    if($current_year-$birth_year > 18){
+        echo "You can drive";
+    }
+    else{
+        echo "You still a kid, go and play GTA";
+    }echo "<br>";   echo "<br>";   echo "<br>";  
+
+
+
 
 
 
