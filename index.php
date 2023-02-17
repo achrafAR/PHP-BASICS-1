@@ -50,6 +50,14 @@
 
     echo "<h1>Step 6</h1>";
 
+    function calculateArea($height,$width){
+        return $height*$width;
+
+    }
+
+    echo "Area is ".calculateArea(5,3);
+
+
 
 
 
