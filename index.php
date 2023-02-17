@@ -158,12 +158,18 @@ function sumDigit($number){
 }echo sumDigit(54321);echo"<br>";echo"<br>";echo"<br>";
 
 
-echo "<h1>basic2/step6</h1>";
+
+echo "<h1>basic2/step7</h1>";
+    $input = "I love Python and PHP";
+    $input = str_replace("Python","wait",$input) ;
+    $input = str_replace("PHP","Python",$input);
+    $output = str_replace("wait","PHP",$input);
+    echo $output;
+
 
 
 
 echo"<br>";echo"<br>";echo"<br>";
-echo "<h1>basic2/step7</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step8</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step9</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step10</h1>";echo"<br>";echo"<br>";echo"<br>";
