@@ -7,9 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    Hello world,Help me i am using PHP
 <?php
-echo "hello world"
+    echo "I am getting errors but i can't see the errors";
+   
+
 ?>
 </body>
 </html>
