@@ -201,11 +201,27 @@ echo "<h1>basic2/step9</h1>";
         return $square;
     }
 
-    echo square(16);
+    echo square(16);echo"<br>";echo"<br>";echo"<br>";
+
+
+echo "<h1>basic2/step10</h1>";
+    function palindrome($string){
+        if($string==strrev($string)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+    $string = "madam";
+    if(palindrome($string)){
+        echo "its palindrome";
+    }else{
+        echo "its not palindrome";
+    }
 
 
 echo"<br>";echo"<br>";echo"<br>";
-echo "<h1>basic2/step10</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step11</h1>";echo"<br>";echo"<br>";echo"<br>";
 
 
