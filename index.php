@@ -190,14 +190,21 @@ echo "<h1>basic2/step8</h1>";
         echo $n . " is a power of 2";
     } else {
         echo $n . " is not a power of 2";
+    }echo"<br>";echo"<br>";echo"<br>";
+
+
+
+
+echo "<h1>basic2/step9</h1>";
+    function square($num){
+        $square = sqrt($num);
+        return $square;
     }
 
-
-
+    echo square(16);
 
 
 echo"<br>";echo"<br>";echo"<br>";
-echo "<h1>basic2/step9</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step10</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step11</h1>";echo"<br>";echo"<br>";echo"<br>";
 
