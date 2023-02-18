@@ -218,11 +218,36 @@ echo "<h1>basic2/step10</h1>";
         echo "its palindrome";
     }else{
         echo "its not palindrome";
+    }echo"<br>";echo"<br>";echo"<br>";
+
+
+echo "<h1>basic2/step11</h1>";
+    function isPrime($number){
+
+        if($number == 1){
+            return true;
+        }
+
+        for($i=2;$i<=$number/2;$i++){
+            if($number%$i == 0){
+                return false;
+            }
+
+        }
+        return true;
+
+
+    }
+
+    $number = 11;
+    if (isPrime($number)){
+        echo "$number is prime";
+    }else {
+        echo "$number is not prime";
     }
 
 
 echo"<br>";echo"<br>";echo"<br>";
-echo "<h1>basic2/step11</h1>";echo"<br>";echo"<br>";echo"<br>";
 
 
 
