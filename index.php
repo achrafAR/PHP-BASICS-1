@@ -164,13 +164,39 @@ echo "<h1>basic2/step7</h1>";
     $input = str_replace("Python","wait",$input) ;
     $input = str_replace("PHP","Python",$input);
     $output = str_replace("wait","PHP",$input);
-    echo $output;
+    echo $output;echo"<br>";echo"<br>";echo"<br>";
+
+
+echo "<h1>basic2/step8</h1>";
+    function isPower($n){
+        if($n==0){
+            return false;
+        }
+        while ($n != 1){
+            $n = $n/2;
+
+            if($n%2 != 0 && $n !=1){
+                return false;
+                
+            }
+            return true;
+
+        }
+    }
+
+    $n=16;
+
+    if (isPower($n)) {
+        echo $n . " is a power of 2";
+    } else {
+        echo $n . " is not a power of 2";
+    }
+
 
 
 
 
 echo"<br>";echo"<br>";echo"<br>";
-echo "<h1>basic2/step8</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step9</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step10</h1>";echo"<br>";echo"<br>";echo"<br>";
 echo "<h1>basic2/step11</h1>";echo"<br>";echo"<br>";echo"<br>";
