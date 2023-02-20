@@ -328,6 +328,36 @@ echo "<h1>basic3/step3</h1>";
     echo"<br>";echo"<br>";echo"<br>";
 
 
+    echo "<h1>basic3/forloop/ex4</h1>";
+        $x=7;
+        for($count=0;$count<7;$count++){
+        if($count == 0 || $count == 6){
+            for($i=0;$i<7;$i++){
+                echo "*";
+            }            echo "<br>";
+
+        }
+            else{
+                for($j=0;$j<$count;$j++){
+                    echo "&nbsp";
+                }
+                echo "*";
+                echo "<br>";
+            }
+        }
+        
+
+
+
+    echo"<br>";echo"<br>";echo"<br>";
+
+
+    
+      
+
+
+
+
 
 
 
