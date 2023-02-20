@@ -344,16 +344,18 @@ echo "<h1>basic3/step3</h1>";
                 echo "*";
                 echo "<br>";
             }
-        }
-        
+        }echo"<br>";echo"<br>";echo"<br>";
 
+    
+        echo "<h1>basic3/forloop/ex5</h1>";
 
+    $name = "achraf";
+    for($i=strlen($name)-1;$i>=0;$i--){
+        echo "$name[$i]";
+    }
 
     echo"<br>";echo"<br>";echo"<br>";
 
-
-    
-      
 
 
 
