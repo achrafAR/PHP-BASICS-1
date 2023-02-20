@@ -250,6 +250,33 @@ echo "<h1>basic2/step11</h1>";
 echo"<br>";echo"<br>";echo"<br>";
 
 
+echo "<h1>basic3/step1</h1>";
+
+$i=1;
+$x=7;
+
+while($i<=$x){
+
+for($j=1;$j<=$i;$j++){
+    echo '*';
+}
+echo "<br>";
+$i++;
+
+}echo"<br>";echo"<br>";echo"<br>";
+
+
+echo "<h1>basic3/step1</h1>";
+
+
+
+echo"<br>";echo"<br>";echo"<br>";
+
+
+
+
+
+
 
 ?>
 </body>
