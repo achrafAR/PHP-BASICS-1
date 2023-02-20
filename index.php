@@ -263,11 +263,18 @@ for($j=1;$j<=$i;$j++){
 echo "<br>";
 $i++;
 
-}echo"<br>";echo"<br>";echo"<br>";
+}echo"<br>";echo"<br>";
+echo "<h1>basic3/step2</h1>";
 
+    $x=6;
+    $i=2;
+    $fact=1;
+    while($i<=$x){
+        $fact=$i*$fact;
+        $i++;
+    }
 
-echo "<h1>basic3/step1</h1>";
-
+    echo $fact;
 
 
 echo"<br>";echo"<br>";echo"<br>";
