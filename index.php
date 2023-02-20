@@ -357,6 +357,31 @@ echo "<h1>basic3/step3</h1>";
     echo"<br>";echo"<br>";echo"<br>";
 
 
+    echo "<h1>basic3/foreach/ex1</h1>";
+
+
+    $transactions = array(
+        array(
+            "id" => 1,
+            "debit"=>2,
+            "credit"=>3
+        ),
+        array(
+            "id" => 2,
+            "debit"=>15,
+            "credit"=>10
+        )
+    );
+
+
+    foreach ($transactions as $value){
+        $amount = $value['debit'] - $value['credit'];
+        echo "ID: {$value['id']} => amount: {$amount}";
+        echo "<br>";
+    }
+    echo"<br>";echo"<br>";echo"<br>";
+
+
 
 
 
