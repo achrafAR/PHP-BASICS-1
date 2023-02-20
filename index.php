@@ -279,6 +279,21 @@ echo "<h1>basic3/step2</h1>";
 
 echo"<br>";echo"<br>";echo"<br>";
 
+echo "<h1>basic3/step3</h1>";
+    $text = "i want to go to the beach";
+    $array = explode(" ",$text);
+    $c=count($array);
+    $i=0;
+    $j=0;
+    while($i<$c){
+        if ($array[$i]=="to"){
+            $j++;
+        }
+        $i++;
+    }
+    echo "$j";
+    echo"<br>";echo"<br>";echo"<br>";
+
 
 
 
