@@ -295,6 +295,22 @@ echo "<h1>basic3/step3</h1>";
     echo"<br>";echo"<br>";echo"<br>";
 
 
+    echo "<h1>basic3/step4</h1>";
+
+        $num=12345;
+        $sum=0;
+        $z=strlen($num);
+        for ($i=0;$i<$z;$i++){
+            $sum = $sum + $num%10;
+            $num=$num/10;
+        }
+        echo $sum;
+
+
+    echo"<br>";echo"<br>";echo"<br>";
+
+
+
 
 
 
